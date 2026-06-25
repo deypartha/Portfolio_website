@@ -28,7 +28,7 @@ const projects = [
   {
     title: 'Saarthi - A cab booking application',
     description: 'A frontend application featuring cab booking capabilities, real-time tracking, and seamless user experience.',
-    image: DhabaPoint,
+    image: ezywork,
     tags: ['React', 'JSON Server', 'CSS', 'Vite'],
     github: 'https://github.com/yourusername/collab-platform',
     live: 'https://collab-platform.vercel.app',
