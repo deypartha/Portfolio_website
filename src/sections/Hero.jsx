@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { ArrowDown, Github, Linkedin, Mail, Download } from 'lucide-react'
 import formalImage from '../public/images/formal_me_image.jpeg'
+import resumePdf from '../public/pdfs/Partha_resume.pdf'
 
 export default function Hero() {
   const scrollToSection = (href) => {
@@ -76,8 +77,8 @@ export default function Hero() {
                 View Projects
               </motion.button>
               <motion.a
-                href="resume"
-                download
+                href={resumePdf}
+                download="Partha_Resume.pdf"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="btn-outline flex items-center gap-2 text-lg"
